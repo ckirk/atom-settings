@@ -1,0 +1,82 @@
+{
+  "_from": "https://www.atom.io/api/packages/minimap-autohider/versions/1.6.0/tarball",
+  "_id": "minimap-autohider@1.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-CKvP718isYBwI+E1pV2xHoSziGzAqixcfm0OvdSS26ofJz5xd1Xyt/mHtEB7iM3foGMDzxlz2yTI0sPC5tx9hA==",
+  "_location": "/minimap-autohider",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/minimap-autohider/versions/1.6.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/minimap-autohider/versions/1.6.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/minimap-autohider/versions/1.6.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/minimap-autohider/versions/1.6.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/minimap-autohider/versions/1.6.0/tarball",
+  "_shasum": "8ae323b26ddb0dcd45541924e287ea0d064a1a0d",
+  "_spec": "https://www.atom.io/api/packages/minimap-autohider/versions/1.6.0/tarball",
+  "_where": "/private/var/folders/20/33mj2f_561z771lhfxp282xm0000gn/T/apm-install-dir-11954-37169-1ieup55.utgx",
+  "author": {
+    "name": "Aaron Ballard",
+    "email": "ans.ballard@gmail.com",
+    "url": "ansballard"
+  },
+  "bugs": {
+    "url": "https://github.com/ansballard/minimap-autohider/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "minimap": {
+      "versions": {
+        "1.0.0": "consumeMinimapServiceV1"
+      }
+    }
+  },
+  "contributors": [
+    {
+      "name": "Jay Kuri",
+      "url": "jayk"
+    },
+    {
+      "name": "Aaron Ballard",
+      "email": "ans.ballard@gmail.com",
+      "url": "ansballard"
+    }
+  ],
+  "dependencies": {
+    "atom-package-deps": "^4.6.2"
+  },
+  "deprecated": false,
+  "description": "Automatically hide the minimap when you aren't using it.",
+  "devDependencies": {
+    "pre-commit": "^1.2.2",
+    "prettier": "^1.15.3"
+  },
+  "engines": {
+    "atom": ">=1.13.0"
+  },
+  "homepage": "https://github.com/ansballard/minimap-autohider#readme",
+  "license": "MIT",
+  "main": "./lib/minimap-autohider.js",
+  "name": "minimap-autohider",
+  "package-deps": [
+    "minimap"
+  ],
+  "precommit": [
+    "prettier",
+    "gitadd"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ansballard/minimap-autohider.git"
+  },
+  "scripts": {
+    "gitadd": "git add lib styles spec",
+    "prettier": "prettier --write \"{lib,spec,styles}/*.{js,less}\""
+  },
+  "version": "1.6.0"
+}

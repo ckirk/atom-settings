@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/increment-selection/versions/0.3.0/tarball",
+  "_id": "increment-selection@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-C4wDfe3GSOzbS0tzcy9mb+MDEW6U9+2wqFjR8YIJPdO+YDaTQ7wpPVbLo4xLlYsQCYgdUdpH5U5RL9kecxSv2w==",
+  "_location": "/increment-selection",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/increment-selection/versions/0.3.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/increment-selection/versions/0.3.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/increment-selection/versions/0.3.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/increment-selection/versions/0.3.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/increment-selection/versions/0.3.0/tarball",
+  "_shasum": "2546832a6beb1e32693c068bb5384fa7c8d9fa80",
+  "_spec": "https://www.atom.io/api/packages/increment-selection/versions/0.3.0/tarball",
+  "_where": "/private/var/folders/20/33mj2f_561z771lhfxp282xm0000gn/T/apm-install-dir-2020112-20896-tok8gy.3k8g9",
+  "activationCommands": {
+    "atom-workspace": "increment-selection:increment"
+  },
+  "bugs": {
+    "url": "https://github.com/p3lim/increment-selection/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Increments your current selected line(s)",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/p3lim/increment-selection#readme",
+  "license": "MIT",
+  "main": "./lib/increment-selection",
+  "name": "increment-selection",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p3lim/increment-selection.git"
+  },
+  "version": "0.3.0"
+}

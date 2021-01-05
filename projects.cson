@@ -1,0 +1,90 @@
+[
+  {
+    title: "Boilerplate MERN App"
+    group: "Personal"
+    paths: [
+      "/Users/chris/code/boilerplate-mern-app"
+    ]
+  }
+  {
+    title: "vvaves"
+    group: "Personal"
+    paths: [
+      "/Users/chris/PROJECTS/vvaves/code/vvaves"
+    ]
+  }
+  {
+    title: "Wanderlust Digital"
+    paths: [
+      "/Users/chris/PROJECTS/Wanderlust Careers/code/wanderlust-digital"
+    ]
+  }
+  {
+    title: "Microelastic"
+    paths: [
+      "/Users/chris/PROJECTS/MicroElastic/code/microelastic-client"
+    ]
+  }
+  {
+    title: "Jist Design"
+    paths: [
+      "/Users/chris/code/Jist-Design"
+    ]
+  }
+  {
+    title: "Activatr | Hub"
+    paths: [
+      "/Users/chris/code/activatr/hub"
+    ]
+  }
+  {
+    title: "Redux Exercise Apps"
+    paths: [
+      "/Users/chris/code/Personal/Understanding_Redux/exercise apps"
+    ]
+  }
+  {
+    title: "nRF52 SDK"
+    paths: [
+      "/Users/chris/PROJECTS/SnoMote/Product/Code/NRF52 Development/nRF5_SDK_15.3.0_59ac345"
+    ]
+  }
+  {
+    title: "Surf Free"
+    group: "Personal"
+    paths: [
+      "/Users/chris/code/Personal/surf_free"
+    ]
+  }
+  {
+    title: "Redux Todo App"
+    group: "Learning"
+    paths: [
+      "/Users/chris/code/Personal/redux_todo_app"
+    ]
+  }
+  {
+    title: "Vistawatt"
+    paths: [
+      "/Users/chris/code/vistawatt"
+    ]
+  }
+  {
+    title: "NBIA"
+    paths: [
+      "/Users/chris/PROJECTS/NBIA/code"
+    ]
+  }
+  {
+    title: "Sevenbell Fitness"
+    paths: [
+      "/Users/chris/code/sevenbell-fitness"
+    ]
+  }
+  {
+    title: "vvaves-legacy"
+    paths: [
+      "/Users/chris/PROJECTS/vvaves/code/vvaves-legacy"
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "_from": "https://www.atom.io/api/packages/from-and-to-json/versions/1.0.0/tarball",
+  "_id": "from-and-to-json@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-m1Oq1xzBRVOmEc0hbSzwQaPyg4CWyRG0X4DUidBQse1Ss1i13zdpTqMh4jlrauBpjBi3EmAPcTILaB2ZzG7Ytw==",
+  "_location": "/from-and-to-json",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/from-and-to-json/versions/1.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/from-and-to-json/versions/1.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/from-and-to-json/versions/1.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/from-and-to-json/versions/1.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/from-and-to-json/versions/1.0.0/tarball",
+  "_shasum": "af8504786d850d8f00e987c82e86bfcead5c1b0b",
+  "_spec": "https://www.atom.io/api/packages/from-and-to-json/versions/1.0.0/tarball",
+  "_where": "/private/var/folders/20/33mj2f_561z771lhfxp282xm0000gn/T/apm-install-dir-2020928-13441-1s4r8qh.wvdu",
+  "author": {
+    "name": "MatthieuLemoine"
+  },
+  "bugs": {
+    "url": "https://github.com/MatthieuLemoine/from-and-to-json/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "pretty-json": "git+https://github.com/federomero/pretty-json.git"
+  },
+  "deprecated": false,
+  "description": "Atom package to convert selected JSON to Javascript object and vice versa",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/MatthieuLemoine/from-and-to-json#readme",
+  "keywords": [
+    "json",
+    "js",
+    "atom",
+    "serialize",
+    "deserialize",
+    "parse",
+    "stringify"
+  ],
+  "license": "MIT",
+  "main": "./lib/from-and-to-json",
+  "name": "from-and-to-json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthieuLemoine/from-and-to-json.git"
+  },
+  "version": "1.0.0"
+}

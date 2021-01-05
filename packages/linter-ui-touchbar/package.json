@@ -1,0 +1,95 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/20/33mj2f_561z771lhfxp282xm0000gn/T/d-11795-6331-19rywv7.1gcciejyvi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/20/33mj2f_561z771lhfxp282xm0000gn/T/d-11795-6331-19rywv7.1gcciejyvi/package.tgz",
+        "spec": "/private/var/folders/20/33mj2f_561z771lhfxp282xm0000gn/T/d-11795-6331-19rywv7.1gcciejyvi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/20/33mj2f_561z771lhfxp282xm0000gn/T/apm-install-dir-11795-6331-9n3zo3.my39x561or"
+    ]
+  ],
+  "_from": "../d-11795-6331-19rywv7.1gcciejyvi/package.tgz",
+  "_id": "linter-ui-touchbar@0.2.1",
+  "_inCache": true,
+  "_location": "/linter-ui-touchbar",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/20/33mj2f_561z771lhfxp282xm0000gn/T/d-11795-6331-19rywv7.1gcciejyvi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/20/33mj2f_561z771lhfxp282xm0000gn/T/d-11795-6331-19rywv7.1gcciejyvi/package.tgz",
+    "spec": "/private/var/folders/20/33mj2f_561z771lhfxp282xm0000gn/T/d-11795-6331-19rywv7.1gcciejyvi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11795-6331-19rywv7.1gcciejyvi/package.tgz",
+  "_shasum": "21e0422f7bd3136716c451265b75664d1c87318b",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/20/33mj2f_561z771lhfxp282xm0000gn/T/d-11795-6331-19rywv7.1gcciejyvi/package.tgz",
+  "_where": "/private/var/folders/20/33mj2f_561z771lhfxp282xm0000gn/T/apm-install-dir-11795-6331-9n3zo3.my39x561or",
+  "bugs": {
+    "url": "https://github.com/haklop/linter-ui-touchbar/issues"
+  },
+  "consumedServices": {
+    "touchbar-registry": {
+      "versions": {
+        "0.1.0": "consumeTouchBar"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.6.0"
+  },
+  "description": "A linter-ui extension for the Apple's TouchBar",
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-xo-space": "^0.15.0"
+  },
+  "engines": {
+    "atom": ">=1.19.0 <2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space/esnext",
+    "env": {
+      "mocha": true
+    },
+    "rules": {
+      "no-console": "error",
+      "camelcase": "warn"
+    },
+    "globals": {
+      "atom": true
+    }
+  },
+  "homepage": "https://github.com/haklop/linter-ui-touchbar#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "name": "linter-ui-touchbar",
+  "optionalDependencies": {},
+  "package-deps": [
+    "touchbar-registry"
+  ],
+  "providedServices": {
+    "linter-ui": {
+      "versions": {
+        "1.0.0": "provideUI"
+      }
+    }
+  },
+  "readme": "# linter-ui-touchbar\n\nAn UI based on the Apple Touch Bar for linter.\n\n![Preview](https://thumbs.gfycat.com/GratefulInformalKillifish-size_restricted.gif)\n\n### Installation\n\n**Atom 1.19+ required.**\n\nYou can install it from the CLI.\n\n```\napm install linter-ui-touchbar\n```\n\nOr you can install from Settings view by searching for `linter-ui-touchbar`.\n\n### License\n\nThis Project is licensed under the terms of MIT License, check the license file for more info.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haklop/linter-ui-touchbar.git"
+  },
+  "version": "0.2.1"
+}

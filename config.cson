@@ -1,0 +1,59 @@
+"*":
+  "atom-minimap-titles":
+    font: "big"
+  core:
+    disabledPackages: [
+      "language-javascript"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "node_modules"
+      ".pioenvs"
+      ".piolibdeps"
+      ".clang_complete"
+      ".gcc-flags.json"
+    ]
+    projectHome: "/Users/chris/code"
+    telemetryConsent: "no"
+    useTreeSitterParsers: false
+  editor:
+    fontSize: 16
+  "exception-reporting":
+    userId: "ceed4973-55a6-657d-0302-ad3cf0b32637"
+  "file-icons": {}
+  "language-babel": {}
+  linter:
+    lintOnChangeInterval: 1000
+  "linter-eslint":
+    disabling:
+      disableWhenNoEslintConfig: false
+  "linter-ui-default":
+    tooltipFollows: "Mouse"
+    useBusySignal: false
+  minimap:
+    plugins:
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+      "minimap-autohider": true
+      "minimap-autohiderDecorationsZIndex": 0
+  "project-manager": {}
+  react: {}
+  "sass-autocompile":
+    compileFiles: "Only with first-line-comment"
+  "theme-switch":
+    profiles: [
+      "one-dark-ui one-dark-syntax"
+      "one-light-ui one-light-syntax"
+    ]
+  "tool-bar":
+    position: "Left"
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
